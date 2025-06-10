@@ -94,8 +94,9 @@ function setup() {
   NakartedebetowaButton.elt.style.background = 'transparent';
   NakartedebetowaButton.elt.style.border = 'none';
   NakartedebetowaButton.mousePressed(() => {
-    console.log("Kliknięto przycisk Na kartę debetową");
-  });
+    //console.log("Kliknięto przycisk Na kartę debetową");
+  window.open("https://persied.github.io/dropdown-powiadomienia/","_self");
+              });
 }
 
 function draw() {
