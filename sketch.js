@@ -19,6 +19,7 @@ function preload() {
 
 function setup() {
   createCanvas(2388, 1668 );
+  imageMode(CORNER);
 
   // Pole tekstowe (hasło)
   tekst = createInput("I");
